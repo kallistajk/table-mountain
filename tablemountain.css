@@ -1,0 +1,59 @@
+.card-img-top {
+  width: 100%;
+  height: 190px;
+  object-fit: cover;
+}
+
+#tablemountainmap {
+  width: 500px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 2em;
+}
+
+#location {
+  background-image: linear-gradient(#ffffff,#C4C6B8);
+}
+
+body {
+  background: url("https://images.unsplash.com/photo-1567356578218-c3abcd597383");
+  background-size: cover;
+  background-position: center;
+  font-family: 'Quicksand';
+}
+
+h3, h5 {
+  font-weight: 600;
+}
+
+.display-4 {
+  font-weight: 700;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.nav-pills {
+  font-size: 1.5vw;
+}
+
+.nav-pills .nav-link {
+  background-color: transparent;
+  color: #0C983B;
+}
+
+.nav-pills .nav-link.active {
+  background-color: transparent;
+  color: #086226;
+}
+
+.nav-pills .nav-link:hover {
+  color: #086226;
+}
+
+.pillimg {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
